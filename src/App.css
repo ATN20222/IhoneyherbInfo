@@ -28,6 +28,105 @@
   color: #61dafb;
 }
 
+header{
+  display: flex;
+  justify-content: end;
+}
+.LangBtnsCol{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.LangBtnsCol button{
+  margin: 5px;
+  color: white;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.ImageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ImageContainer span{
+  margin-top: 0px;
+}
+.Center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Word-1, .Word-2, .Word-3 {
+  color: #000;
+  font-style: italic;
+  font-weight: 800;
+}
+.LogoWords{
+  font-size: 30px;
+}
+.Word-2 {
+  color: #fbd203;
+}
+.AllLinks{
+  margin-top: 50px;
+}
+.HoneyTitle{
+  font-weight: 500;
+  font-size: 14px;
+}
+.LinkItem{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #fbd203, #cc9a25);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  height: 60px;
+}
+.LinkItemIcon{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LinkItemIcon svg{
+  width: 20px;
+  height:20px;
+  color: #cc9a25;
+}
+.LinkItemText{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: start;
+}
+.LocationText{
+  font-size: 15px;
+}
+body{
+  background-image: url('./Assets/Images/Pattern.png');
+  background-size: cover;
+}
+/* #,#cc9a25) */
+@media (max-width:1200px) {
+  .LinkItem{
+    height: max-content;
+  }
+  .LinkItemText{
+    font-size: 16px;
+  }
+  .LocationText{
+    font-size: 12px;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
